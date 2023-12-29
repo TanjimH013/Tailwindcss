@@ -1098,14 +1098,32 @@ video {
     @apply border-purple-200 text-green-600 hover:bg-orange-500 focus:ring-green-600 dark:text-green-400
 } */
 
+.first-letter\:bg-indigo-500::first-letter {
+  --tw-bg-opacity: 1;
+  background-color: rgb(99 102 241 / var(--tw-bg-opacity));
+}
+
 .first-letter\:text-4xl::first-letter {
   font-size: 2.25rem;
   line-height: 2.5rem;
 }
 
+.first-letter\:text-3xl::first-letter {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.first-letter\:font-semibold::first-letter {
+  font-weight: 600;
+}
+
 .first-letter\:text-green-400::first-letter {
   --tw-text-opacity: 1;
   color: rgb(74 222 128 / var(--tw-text-opacity));
+}
+
+.first-line\:font-semibold::first-line {
+  font-weight: 600;
 }
 
 .selection\:bg-red-300 *::-moz-selection {
