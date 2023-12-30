@@ -613,6 +613,11 @@ body{
   margin-right: auto;
 }
 
+.my-16{
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
 .flex{
   display: flex;
 }
@@ -649,6 +654,26 @@ body{
   width: 50%;
 }
 
+.w-\[118px\]{
+  width: 118px;
+}
+
+.w-\[127px\]{
+  width: 127px;
+}
+
+.w-\[150px\]{
+  width: 150px;
+}
+
+.w-\[176px\]{
+  width: 176px;
+}
+
+.w-\[166px\]{
+  width: 166px;
+}
+
 .-translate-x-full{
   --tw-translate-x: -100%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -679,6 +704,10 @@ body{
   justify-content: flex-start;
 }
 
+.justify-center{
+  justify-content: center;
+}
+
 .justify-between{
   justify-content: space-between;
 }
@@ -701,6 +730,10 @@ body{
 
 .gap-9{
   gap: 2.25rem;
+}
+
+.gap-\[121px\]{
+  gap: 121px;
 }
 
 .space-y-1 > :not([hidden]) ~ :not([hidden]){
@@ -821,6 +854,16 @@ body{
 .px-10{
   padding-left: 2.5rem;
   padding-right: 2.5rem;
+}
+
+.py-\[\]{
+  padding-top: ;
+  padding-bottom: ;
+}
+
+.py-\[61px\]{
+  padding-top: 61px;
+  padding-bottom: 61px;
 }
 
 .pt-16{
