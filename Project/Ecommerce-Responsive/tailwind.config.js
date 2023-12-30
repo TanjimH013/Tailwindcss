@@ -12,6 +12,9 @@ module.exports = {
       screens: {
        sm: "480px",
       },
+      content: {
+        oval: 'url("../images/banner-image-2.png")',
+      },
 
     },
   },
