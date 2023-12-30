@@ -618,6 +618,11 @@ body{
   margin-bottom: 4rem;
 }
 
+.my-\[190px\]{
+  margin-top: 190px;
+  margin-bottom: 190px;
+}
+
 .flex{
   display: flex;
 }
@@ -652,6 +657,18 @@ body{
 
 .h-\[704px\]{
   height: 704px;
+}
+
+.h-\[700px\]{
+  height: 700px;
+}
+
+.h-\[650px\]{
+  height: 650px;
+}
+
+.h-\[600px\]{
+  height: 600px;
 }
 
 .w-1\/2{
@@ -939,6 +956,10 @@ body{
   font-weight: 500;
 }
 
+.font-\[7f7f7f\]{
+  font-weight: 7f7f7f;
+}
+
 .uppercase{
   text-transform: uppercase;
 }
@@ -1068,6 +1089,10 @@ body{
 
   .md\:grid-cols-3{
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-2{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .md\:flex-row{
